@@ -1,8 +1,13 @@
-# Network-TSN-8148SC
+# Template Net TsnTec 8148SC
 
 ## Overview
 
 Zabbix 6.0 template for **Time-Sensitive Networking (TSN) devices** that expose standard SNMP objects (IF-MIB, HOST-RESOURCES-MIB, SNMPv2-MIB) plus enterprise OIDs for hardware sensors, power supplies and SFP optics.
+
+## Compatibility
+- **Zabbix versions**: 6.0, 6.2, 6.4, 7.0, 7.2 and later
+- **Template format**: YAML (Zabbix export schema v6.0)
+- **Agent**: No agent required — uses **SNMPv2c** (can be adapted for SNMPv3)
 
 ## Macros used
 
